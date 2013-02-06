@@ -1,4 +1,5 @@
 $(function () {
+  
   var content = JSON.parse(BL.getContentItem());
   var url = content.url;
 
@@ -7,4 +8,5 @@ $(function () {
   }
 
   window.location = url;
+  
 });
