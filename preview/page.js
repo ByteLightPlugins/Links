@@ -7,5 +7,6 @@ $(function () {
   $('button').click(function (e) {
     BL.showContent(id);
   });
+  
   BL.previewReady();
 });
